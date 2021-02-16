@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "2-kong"
+  description: "2-kong"
+  annotations:
+    github.com/project-slug: Paridhi-Mohindra/2-kong
+    backstage.io/techdocs-ref: url:https://github.com/Paridhi-Mohindra/2-kong
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "2-kong"
